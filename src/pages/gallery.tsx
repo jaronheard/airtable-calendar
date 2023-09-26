@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 
-const Calendar = () => {
+const Gallery = () => {
   return (
     <div className="h-screen bg-gray-100 flex flex-col">
       <Navbar />
       <div className="flex-grow mt-16">
         <iframe
           className="airtable-embed w-full h-full"
-          src="https://airtable.com/embed/app0AIOqiiAeI12kU/shrOAY5fap3rjOp86?backgroundColor=cyan&viewControls=on"
+          src="https://airtable.com/embed/app0AIOqiiAeI12kU/shr0QeeM7tdvmBxYj?backgroundColor=cyan&viewControls=on"
           frameBorder="0"
           style={{
             background: "transparent",
@@ -20,4 +20,4 @@ const Calendar = () => {
   );
 };
 
-export default Calendar;
+export default Gallery;
